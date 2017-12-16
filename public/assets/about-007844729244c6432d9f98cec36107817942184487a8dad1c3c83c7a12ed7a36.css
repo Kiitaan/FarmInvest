@@ -1,0 +1,86 @@
+.flex-container2 {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+background-color: #53DF83;
+font-family: Poppins;
+color: white;
+font-size: 15px;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+height: 400px;
+}
+
+.contactbutton{
+
+width: 20%;
+height: 20%;
+border-radius: 10px;
+padding: 5px;
+margin:0 auto;
+margin-top: 50px;
+font-size: 25px;
+background-color: #e7e7e7;
+}
+
+.catchphrase1 {
+text-align: center;
+font-size: 30px;
+top: 10%;
+font-family: 'poppins', sans-serif, Arial;
+}
+
+.contactbutton:hover {
+background-color: white;
+}
+
+.titletext {
+text-align: center;
+padding-top: 25px;
+font-size: 40px;
+margin:0 auto;
+font-family: poppins, Arial, sans-serif;
+}
+
+.texteabout {
+  font-family: 'Open Sans', sans-serif, Arial;
+  width: 85%;
+  text-align: justify;
+  margin: auto;
+}
+
+.histoire {
+  text-transform: uppercase;
+}
+
+.violetbutton {
+width: 200px;
+height: 70px;
+color: white;
+font-size: 30px;
+background-color: #8353df;
+border-radius: 40px;
+border: #8353df;
+position: absolute;
+top: -90px;
+right: 40%;
+}
+
+.botpage {
+position: relative;
+top: 40px;
+}
+
+.secondsquare {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 80%;
+height: 20%;
+background-color: red;
+}
